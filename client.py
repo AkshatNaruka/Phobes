@@ -49,6 +49,8 @@ t.start()
 
 # ======================= Sending user inputted messages to the Server ====================== #
 
+name = input("Enter your name: ")
+
 while True:
     # input message we want to send to the server
     to_send =  input()
